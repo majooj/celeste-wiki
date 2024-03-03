@@ -6,8 +6,8 @@
 }
 
 body {
-  background: linear-gradient(to right, #7fb2f0, #2a5699);
-  background-repeat: no-repeat;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 5%, rgba(31,110,204,1) 95%);
   font-family: "Roboto", sans-serif;
 }
 
@@ -19,8 +19,8 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 30px;
+  padding: 50px;
 }
 
 .box {
